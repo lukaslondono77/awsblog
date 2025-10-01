@@ -1,0 +1,21 @@
+{
+  "name": "aws-solutions-architect-blog",
+  "version": "1.0.0",
+  "description": "Educational blog for AWS Solutions Architect topics",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["aws", "solutions-architect", "blog", "education"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
